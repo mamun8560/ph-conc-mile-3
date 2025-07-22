@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*shared style*/
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.btn {
+  background-color: #dd0000;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+/*banner style*/
+.banner {
+  display: flex;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+.banner-right img {
+  display: block;
+}
+.banner h2 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.banner p {
+  color: #ffffff;
+  max-width: 65%;
+}
+.banner-left {
+  padding-left: 25px;
+}
